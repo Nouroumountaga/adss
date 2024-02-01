@@ -407,6 +407,35 @@ textarea{
     flex-direction: column;
     align-items: center;
 }
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-basis: 200;
+    flex-grow: 200;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+video{
+    width: 100%;
+}
+main img{
+    width: 98%;
+}
+.main{
+    width: 30%;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+figcaption{
+    font-size: 20px;
+    margin: 10px;
+}
 @media screen and (max-width:700px) {
     .container h1{
         margin: 0px;
@@ -419,9 +448,6 @@ textarea{
         font-weight: bold;
         transition: 0.6s;
     }
-    #cible{
-        width:99.8%;
-         }
     p{
         text-align: center;
         padding: 5px;
@@ -760,10 +786,10 @@ textarea{
         font-size: 20px;
     }
     #audience{
-        width: 98%;
+        width: 92%;
     }
     #select{
-        width: 98%;
+        width: 94%;
         font-size: 18px;
     }
     textarea{
@@ -797,7 +823,7 @@ textarea{
         flex-direction: column;
     }
     #choix{
-        padding: 2px;
+        padding: 5px;
         padding-right: 20px;
         border-radius: 7px;
         overflow-x: scroll;
@@ -809,12 +835,27 @@ textarea{
         flex-direction: column;
         align-items: center;
     }
-    #row1{
-        width: 80%;
+    main{
         display: flex;
-        justify-content: start;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        flex-basis: 200;
+        flex-grow: 200;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        flex-direction: column;
+        margin-left: 10%;
     }
-
+    video{
+        width: 100%;
+    }
+    main img{
+        width: 80%;
+    }
+    .main{
+        width: 85%;
+    }
 }
 @media screen and (min-width:701px) and (max-width:1100px){
     .container h1{
@@ -1177,6 +1218,26 @@ textarea{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        flex-basis: 200;
+        flex-grow: 200;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 10%;
+    }
+    video{
+        width: 100%;
+    }
+    main img{
+        width: 95%;
+    }
+    .main{
+        width:48%;
     }
 }
 @media screen and (min-width:1101px) and (max-width:1250px){
