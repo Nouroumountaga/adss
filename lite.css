@@ -786,10 +786,10 @@ figcaption{
         font-size: 20px;
     }
     #audience{
-        width: 92%;
+        width: 98%;
     }
     #select{
-        width: 94%;
+        width: 98%;
         font-size: 18px;
     }
     textarea{
@@ -856,6 +856,9 @@ figcaption{
     .main{
         width: 85%;
     }
+    #row1{
+        width: 80%;
+        }
 }
 @media screen and (min-width:701px) and (max-width:1100px){
     .container h1{
