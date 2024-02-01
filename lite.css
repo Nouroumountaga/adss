@@ -794,7 +794,7 @@ textarea{
         flex-direction: column;
     }
     #choix{
-        padding: 5px;
+        padding: 2px;
         padding-right: 20px;
         border-radius: 7px;
         overflow-x: scroll;
